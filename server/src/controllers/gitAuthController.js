@@ -8,7 +8,7 @@ dotenv.config();
 
 const CLIENT_ID = process.env.GITHUB_CLIENT_ID;
 const CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
-const REDIRECT_URI = "http://localhost:5173/";
+const REDIRECT_URI = process.env.REDIRECT_URI;
 
 export const redirectURL = async (req, res) => {
   const authUrl = `https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=read:user user:email`;
