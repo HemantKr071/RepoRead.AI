@@ -1,4 +1,4 @@
-import { containerVariants,itemVariants } from '@/utils/animation';
+import {itemVariants } from '@/utils/animation';
 import { motion } from 'framer-motion';
 import { Github, FileText, Sparkles, CheckCircle } from 'lucide-react';
 
