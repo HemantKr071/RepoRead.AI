@@ -3,7 +3,7 @@ import { Button} from './ui/button';
 import { Card,CardContent } from './ui/card';
 import { Copy, PenLine } from 'lucide-react';
 import { toast} from 'sonner';
-import { containerVariants,itemVariants } from '@/utils/animation';
+import {itemVariants } from '@/utils/animation';
 import { useState , useCallback,useRef} from 'react';
 
 interface GenerateReadmeProps{

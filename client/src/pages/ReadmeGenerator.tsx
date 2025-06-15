@@ -1,11 +1,10 @@
 import {motion} from 'framer-motion';
-import { containerVariants,itemVariants } from '@/utils/animation';
+import { containerVariants} from '@/utils/animation';
 import DashBoard_Navbar from '@/components/Dashboard_Navbar';
 import { GenerateReadme } from '@/components/GenerateReadme';
 import { useParams,useLocation } from 'react-router-dom';
 import GeneratingReadmeLoader from '@/components/GeneratingReadmeLoader';
 import useReadme from '@/hooks/useReadme';
-import { useEffect } from 'react';
 
 interface RepoState {
   name: string;
@@ -21,7 +20,7 @@ export const ReadmeGenerator = () => {
     return <div className="text-red-500">Invalid repository ID.</div>;
   }
 
-  const { readme, loading,error } = useReadme(id );
+  const { readme, loading} = useReadme(id );
   return (
     <motion.div
       initial='hidden'
