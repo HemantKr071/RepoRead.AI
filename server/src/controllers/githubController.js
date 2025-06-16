@@ -19,7 +19,7 @@ export const getAllRepos = async (req, res) => {
     if (!user) return res.status(404).json({ error: "User not found" });
 
     // Sync with GitHub before fetching
-    // await syncUserRepos(user);
+     await syncUserRepos(user);
 
 
     const skip = (page - 1) * limit;
