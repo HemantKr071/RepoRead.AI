@@ -2,13 +2,14 @@ import {motion} from 'framer-motion';
 import { Github} from 'lucide-react';
 import { Button } from './ui/button';
 import { containerVariants,itemVariants } from '@/utils/animation';
+import { useCallback } from 'react';
 
 
 export const Footer = () => {
   
-  const handleClick = () => {
-     window.open("https://github.com/HemantKr071", "_blank");
-  }
+  const handleClick = useCallback(() => {
+    window.open("https://github.com/HemantKr071/GitRead.AI", "_blank");
+  }, []);
   return (
     <motion.div
     variants={containerVariants}
