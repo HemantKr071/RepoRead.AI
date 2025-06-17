@@ -19,24 +19,24 @@ const DashBoard = () => {
   return (
     <>
     <Helmet>
-      <title>Dashboard — GitRead.AI</title>
+      <title>Dashboard — RepoRead.AI</title>
       <meta
         name="description"
-        content="View your GitHub repositories and generate AI-powered, professional README files with GitRead.AI."
+        content="View your GitHub repositories and generate AI-powered, professional README files with RepoRead.AI."
       />
 
       {/* Open Graph / Facebook / LinkedIn */}
-      <meta property="og:title" content="Dashboard — GitRead.AI" />
+      <meta property="og:title" content="Dashboard — RepoRead.AI" />
       <meta property="og:description" content="Generate smart, detailed README files directly from your GitHub repos." />
-      <meta property="og:image" content="https://gitread.ai.heyhemant.tech/public/DashBoardImage.png" />
-      <meta property="og:url" content="https://gitread.ai.heyhemant.tech/dashboard" />
+      <meta property="og:image" content="https://reporead.ai.heyhemant.tech/public/DashBoardImage.png" />
+      <meta property="og:url" content="https://reporead.ai.heyhemant.tech/dashboard" />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Dashboard — GitRead.AI" />
+      <meta name="twitter:title" content="Dashboard — RepoRead.AI" />
       <meta name="twitter:description" content="Generate smart, detailed README files directly from your GitHub repos." />
-      <meta name="twitter:image" content="https://gitread.ai.heyhemant.tech/public/DashBoardImage.png" />
+      <meta name="twitter:image" content="https://reporead.ai.heyhemant.tech/public/DashBoardImage.png" />
     </Helmet>
     <motion.div
       initial="hidden"

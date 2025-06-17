@@ -31,7 +31,7 @@ const DashBoard_Navbar = () => {
                 <WandSparkles className="h-5 w-5 text-white" />
             </motion.div>
             <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-slate-900 to-slate-500 bg-clip-text text-transparent">
-                GitRead.AI
+                RepoRead.AI
             </div>
         </motion.div>
 

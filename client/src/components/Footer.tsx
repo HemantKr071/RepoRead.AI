@@ -8,7 +8,7 @@ import { useCallback } from 'react';
 export const Footer = () => {
   
   const handleClick = useCallback(() => {
-    window.open("https://github.com/HemantKr071/GitRead.AI", "_blank");
+    window.open("https://github.com/HemantKr071/RepoRead.AI", "_blank");
   }, []);
   return (
     <motion.div

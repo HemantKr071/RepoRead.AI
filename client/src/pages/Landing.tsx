@@ -36,7 +36,7 @@ const Landing = () => {
         window.history.replaceState({}, document.title, '/');
 
         toast.success('SignIn Successfully',{
-          description: `Welcome to GitRead.AI, ${user.name}`,
+          description: `Welcome to RepoRead.AI, ${user.name}`,
           style: {
             backgroundColor: '#e0f7e9',
             color: '#065f46',
@@ -63,30 +63,30 @@ const Landing = () => {
       
 
       <Helmet>
-        <title>GitRead.AI — Instantly Generate Professional GitHub READMEs</title>
+        <title>RepoRead.AI — Instantly Generate Professional GitHub READMEs</title>
         <meta
           name="description"
-          content="GitRead.AI is an AI-powered tool that helps developers generate clean, detailed, and professional README files for GitHub projects — instantly."
+          content="RepoRead.AI is an AI-powered tool that helps developers generate clean, detailed, and professional README files for GitHub projects — instantly."
         />
         
         {/* Open Graph (Facebook, LinkedIn) */}
-        <meta property="og:title" content="GitRead.AI — Instantly Generate Professional GitHub READMEs" />
+        <meta property="og:title" content="RepoRead.AI -  Github Readme Generator,Instantly Generate Professional GitHub READMEs" />
         <meta
           property="og:description"
-          content="Automatically generate professional README files from your GitHub repos using AI. Powered by Langchain and LLMs. Built for developers, by a developer."
+          content="Github Readme Generator that Automatically generate professional README files from your GitHub repos using AI. Powered by Langchain and LLMs. Built for developers, by a developer."
         />
-        <meta property="og:image" content="https://gitread.ai.heyhemant.tech/public/LandingPageImage.png" />
-        <meta property="og:url" content="https://gitread.ai.heyhemant.tech/" />
+        <meta property="og:image" content="https://reporead.ai.heyhemant.tech/public/LandingPageImage.png" />
+        <meta property="og:url" content="https://reporead.ai.heyhemant.tech/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="GitRead.AI — Instantly Generate Professional GitHub READMEs" />
+        <meta name="twitter:title" content="RepoRead.AI — Instantly Generate Professional GitHub READMEs" />
         <meta
           name="twitter:description"
-          content="Generate a full, detailed README in seconds using GitRead.AI. Just connect your GitHub and go!"
+          content="Generate a full, detailed README in seconds using RepoRead.AI. Just connect your GitHub and go!"
         />
-        <meta name="twitter:image" content="https://gitread.ai.heyhemant.tech/public/LandingPageImage.png" />
+        <meta name="twitter:image" content="https://reporead.ai.heyhemant.tech/public/LandingPageImage.png" />
       </Helmet>
        
        {/* Main Component Starts Here */}
@@ -96,7 +96,7 @@ const Landing = () => {
       <Feature />
       <Footer />
       <div className="w-full py-5 text-center text-lg md:text-xl text-gray-600 shadow-xl">
-        © 2025 GitRead.AI. Developed by <span className="font-semibold text-black">@Hemant</span>
+        © 2025 RepoRead.AI. Developed by <span className="font-semibold text-black">@Hemant</span>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ export const Navbar = ({ handleSignIn }: { handleSignIn: () => void }) => {
           <WandSparkles className="h-7 w-7 text-white" />
         </motion.div>
         <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-slate-900 to-slate-500 bg-clip-text text-transparent">
-          GitRead.AI
+          RepoRead.AI
         </div>
       </motion.div>
 

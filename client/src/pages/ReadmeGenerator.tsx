@@ -25,32 +25,32 @@ export const ReadmeGenerator = () => {
   return (
     <>
     <Helmet>
-        <title>README Generated for {name} — GitRead.AI</title>
+        <title>README Generated for {name} — RepoRead.AI</title>
         <meta
           name="description"
-          content={`Auto-generated professional README for the repository "${name}". Powered by AI — GitRead.AI.`}
+          content={`Auto-generated professional README for the repository "${name}". Powered by AI — RepoRead.AI.`}
         />
-        <meta property="og:title" content={`README for ${name} — GitRead.AI`} />
+        <meta property="og:title" content={`README for ${name} — RepoRead.AI`} />
         <meta
           property="og:description"
           content={`Explore the AI-generated README for "${name}" with full project context, features, and installation guide.`}
         />
         <meta
           property="og:image"
-          content="https://gitread.ai.heyhemant.tech/public/ReadmeGeneratorImage.png"
+          content="https://reporead.ai.heyhemant.tech/public/ReadmeGeneratorImage.png"
         />
         <meta property="og:type" content="website" />
 
         {/* Twitter/X Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`README for ${name} — GitRead.AI`} />
+        <meta name="twitter:title" content={`README for ${name} — RepoRead.AI`} />
         <meta
           name="twitter:description"
           content={`Explore the auto-generated README for ${name}. Fast, detailed, and professional.`}
         />
         <meta
           name="twitter:image"
-          content="https://gitread.ai.heyhemant.tech/public/ReadmeGeneratorImage.png"
+          content="https://reporead.ai.heyhemant.tech/public/ReadmeGeneratorImage.png"
         />
     </Helmet>
 

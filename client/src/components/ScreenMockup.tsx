@@ -29,7 +29,7 @@ const ScreenMockup = () => {
           </div>
           <div className="flex-1 text-center">
             <div className="bg-white rounded-md px-3 py-1 text-sm text-gray-600 border border-gray-200">
-              gitread.ai/generate
+              RepoRead.AI/generate
             </div>
           </div>
         </div>

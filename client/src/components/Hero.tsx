@@ -3,12 +3,12 @@ import {motion} from 'framer-motion';
 import { Github , ArrowRight } from 'lucide-react'
 import { containerVariants,itemVariants } from '@/utils/animation';
 import { useNavigate } from 'react-router-dom';
-import { useCallback } from 'react';
+//import { useCallback } from 'react';
 export const Hero = () => {
   const navigate = useNavigate();
-  const handleClick = useCallback(() => {
+ /*  const handleClick = useCallback(() => {
     window.open("https://drive.google.com/file/d/1Gv-ztgzuj_OO7bv5jGBXnlqikpv5VydA/view?usp=sharing", "_blank");
-  }, []);
+  }, []); */
   return (
     <motion.div
     variants={containerVariants}
@@ -21,7 +21,7 @@ export const Hero = () => {
             transition={{ duration: 0.3 }}
             variants={itemVariants}
         >
-            GitRead.AI
+            RepoRead.AI
         </motion.h1>
 
         <motion.h2 
@@ -72,7 +72,7 @@ export const Hero = () => {
                 variants={itemVariants}
                 >
                 <Button
-                    onClick={handleClick}
+                    //onClick={handleClick}
                     variant="outline"
                     size="lg"
                     className="border-2 cursor-pointer border-gray-300 hover:bg-gray-50 hover:border-gray-400 px-10 py-6 text-xl font-semibold text-gray-900 rounded-2xl transition-all duration-300"
