@@ -7,6 +7,7 @@ import RepoCard from '@/components/RepoCard';
 import { Button } from '@/components/ui/button';
 import RepoCardShimmer from '@/components/RepoCardSimmer';
 import useRepos from '@/hooks/useRepos';
+import { Helmet } from 'react-helmet-async';
 
 const DashBoard = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -16,6 +17,27 @@ const DashBoard = () => {
   const handlePrev = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
 
   return (
+    <>
+    <Helmet>
+      <title>Dashboard — GitRead.AI</title>
+      <meta
+        name="description"
+        content="View your GitHub repositories and generate AI-powered, professional README files with GitRead.AI."
+      />
+
+      {/* Open Graph / Facebook / LinkedIn */}
+      <meta property="og:title" content="Dashboard — GitRead.AI" />
+      <meta property="og:description" content="Generate smart, detailed README files directly from your GitHub repos." />
+      <meta property="og:image" content="https://gitread.ai.heyhemant.tech/public/DashBoardImage.png" />
+      <meta property="og:url" content="https://gitread.ai.heyhemant.tech/dashboard" />
+      <meta property="og:type" content="website" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Dashboard — GitRead.AI" />
+      <meta name="twitter:description" content="Generate smart, detailed README files directly from your GitHub repos." />
+      <meta name="twitter:image" content="https://gitread.ai.heyhemant.tech/public/DashBoardImage.png" />
+    </Helmet>
     <motion.div
       initial="hidden"
       animate="visible"
@@ -68,6 +90,7 @@ const DashBoard = () => {
         </Button>
       </motion.div>
     </motion.div>
+    </>
   );
 };
 

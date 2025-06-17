@@ -8,6 +8,7 @@ import { Navbar } from '@/components/Navbar';
 import ScreenMockup from '@/components/ScreenMockup';
 import { useUser } from '@/context/UserContext';
 import { toast} from 'sonner';
+import { Helmet } from "react-helmet-async";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -59,7 +60,36 @@ const Landing = () => {
   };
   return (
     <div className='min-h-screen bg-gradient-to-t from-zinc-300 to-zinc-100'>
-    
+      
+
+      <Helmet>
+        <title>GitRead.AI — Instantly Generate Professional GitHub READMEs</title>
+        <meta
+          name="description"
+          content="GitRead.AI is an AI-powered tool that helps developers generate clean, detailed, and professional README files for GitHub projects — instantly."
+        />
+        
+        {/* Open Graph (Facebook, LinkedIn) */}
+        <meta property="og:title" content="GitRead.AI — Instantly Generate Professional GitHub READMEs" />
+        <meta
+          property="og:description"
+          content="Automatically generate professional README files from your GitHub repos using AI. Powered by Langchain and LLMs. Built for developers, by a developer."
+        />
+        <meta property="og:image" content="https://gitread.ai.heyhemant.tech/public/LandingPageImage.png" />
+        <meta property="og:url" content="https://gitread.ai.heyhemant.tech/" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GitRead.AI — Instantly Generate Professional GitHub READMEs" />
+        <meta
+          name="twitter:description"
+          content="Generate a full, detailed README in seconds using GitRead.AI. Just connect your GitHub and go!"
+        />
+        <meta name="twitter:image" content="https://gitread.ai.heyhemant.tech/public/LandingPageImage.png" />
+      </Helmet>
+       
+       {/* Main Component Starts Here */}
       <Navbar handleSignIn={handleSignIn} />
       <Hero />
       <ScreenMockup />
