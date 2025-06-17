@@ -1,6 +1,6 @@
-# GitRead.AI
+# RepoRead.AI
 
-**GitRead.AI is an AI-powered web application that helps developers automatically generate clean, professional, and comprehensive README.md files for their GitHub repositories.**
+**RepoRead.AI is an AI-powered web application that helps developers automatically generate clean, professional, and comprehensive README.md files for their GitHub repositories.**
 
 ---
 
@@ -43,7 +43,7 @@
 ---
 ## ⭐ Support This Project
 
-If you find **GitRead.AI** useful, consider giving the repository a star ⭐.  
+If you find **RepoRead.AI** useful, consider giving the repository a star ⭐.  
 It motivates me to keep improving and helps others discover the project!
 
 Your support means a lot 🙌
