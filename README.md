@@ -34,11 +34,26 @@
 3. **README Generation**
    - The processed context is sent to the LLM, which generates a polished, developer-ready README.
    - The output includes detailed sections like Features, Installation, Project Architecture, API Routes, Tech Stack, and more.
-
 ---
 
 ## Watch Demo
- - **Demo Video Link:** https://drive.google.com/file/d/1Gv-ztgzuj_OO7bv5jGBXnlqikpv5VydA/view?usp=drive_link
+
+---
+ **Demo Video Link:** https://drive.google.com/file/d/14bPJyJIVpSx05m_DEGfFm4onOqn5Zu7-/view?usp=sharing
+---
+
+---
+-<img width="1439" alt="RepoRead" src="https://github.com/user-attachments/assets/8262e332-5cb8-4257-8405-5173c9d76e1a" />
+---
+
+---
+<img width="1440" alt="DashBoard" src="https://github.com/user-attachments/assets/dfd2dd35-c9c4-4efc-842a-3abbcf999dc5" />
+---
+
+---
+<img width="1438" alt="Readme" src="https://github.com/user-attachments/assets/f367c74a-858f-405b-b7fc-e1f4320e9ea5" />
+---
+
 
 ---
 ## ⭐ Support This Project
