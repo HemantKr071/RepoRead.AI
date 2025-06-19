@@ -26,7 +26,7 @@ const DashBoard = () => {
       />
 
       {/* Open Graph / Facebook / LinkedIn */}
-      <meta property="og:title" content="Dashboard — RepoRead.AI" />
+      <meta property="og:title" content="Dashboard — RepoRead.AI - Github Readme Generator" />
       <meta property="og:description" content="Generate smart, detailed README files directly from your GitHub repos." />
       <meta property="og:image" content="https://reporead.ai.heyhemant.tech/public/DashBoardImage.png" />
       <meta property="og:url" content="https://reporead.ai.heyhemant.tech/dashboard" />

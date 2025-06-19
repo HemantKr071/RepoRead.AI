@@ -28,7 +28,7 @@ export const ReadmeGenerator = () => {
         <title>README Generated for {name} — RepoRead.AI</title>
         <meta
           name="description"
-          content={`Auto-generated professional README for the repository "${name}". Powered by AI — RepoRead.AI.`}
+          content={`Auto-generated professional README for the repository "${name}". Powered by AI — RepoRead.AI -  Github Readme Generator`}
         />
         <meta property="og:title" content={`README for ${name} — RepoRead.AI`} />
         <meta
