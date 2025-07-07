@@ -4,6 +4,7 @@ import { Github , ArrowRight } from 'lucide-react'
 import { containerVariants,itemVariants } from '@/utils/animation';
 import { useNavigate } from 'react-router-dom';
 import { useCallback } from 'react';
+import ProductHuntBadge from './ProductHuntBadge';
 export const Hero = () => {
   const navigate = useNavigate();
   const handleClick = useCallback(() => {
@@ -15,7 +16,6 @@ export const Hero = () => {
     initial="hidden"
     animate="visible"
     className='w-full mt-10 flex flex-col items-center gap-5'>
-        
         <motion.h1 className='text-7xl md:text-8xl leading-tight text-shadow-lg font-bold bg-gradient-to-r from-slate-900 via-slate-900 to-slate-500 bg-clip-text text-transparent'
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
@@ -49,7 +49,7 @@ export const Hero = () => {
             <p className='text-xl md:text-2xl text-gray-600 font-light mx-auto leading-relaxed'>Generate <b className='text-black font-bold'>intelligent READMEs</b> with AI that showcase your projects professionally</p>
         </motion.div>
 
-        <div className='flex flex-col sm:flex-row gap-6 justify-center items-center mb-16'>
+        <div className='flex flex-col sm:flex-row gap-6 justify-center items-center mb-7'>
             <motion.div
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
@@ -80,8 +80,9 @@ export const Hero = () => {
                     Watch Demo
                 </Button>
             </motion.div>
+           
         </div>
-        
+        <ProductHuntBadge/>
     </motion.div>
   )
 }
