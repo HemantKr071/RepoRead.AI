@@ -1,6 +1,11 @@
+import {motion} from 'framer-motion';
+import { itemVariants } from '@/utils/animation';
+
 const ProductHuntBadge = () => {
   return (
-    <div className="mb-7">
+    <motion.div
+    variants={itemVariants}
+     className="mb-7">
       <a
         href="https://www.producthunt.com/products/reporead-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-reporead-ai"
         target="_blank"
@@ -14,7 +19,7 @@ const ProductHuntBadge = () => {
           height="54"
         />
       </a>
-    </div>
+    </motion.div>
   );
 };
 
