@@ -4,7 +4,7 @@ import { Github , ArrowRight } from 'lucide-react'
 import { containerVariants,itemVariants } from '@/utils/animation';
 import { useNavigate } from 'react-router-dom';
 import { useCallback } from 'react';
-import ProductHuntBadge from './ProductHuntBadge';
+
 export const Hero = () => {
   const navigate = useNavigate();
   const handleClick = useCallback(() => {
@@ -82,7 +82,6 @@ export const Hero = () => {
             </motion.div>
            
         </div>
-        <ProductHuntBadge/>
     </motion.div>
   )
 }
